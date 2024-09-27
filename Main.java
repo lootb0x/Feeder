@@ -1,8 +1,8 @@
 public class Main
 {    public static void main(String[] args)
    {
-    Feeder f = new Feeder(100);
-    System.out.print(f.currentFood);
+      Feeder k = new Feeder(0);
+      System.out.println(k.simulateManyDays(5, 10));
     
    }
 }
